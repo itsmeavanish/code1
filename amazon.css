@@ -21,7 +21,7 @@
 }
 
 .border{
-    background-image: url("images/amazon_logo.pngs");
+    background-image: url("images/amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -317,13 +317,10 @@
 .kitchens:hover{
     border: 2px solid white;
 }
-.herosection{
-    z-index: -2;
 
-}
 .herosection{
-    height: 500px;
-    width: 30%;
+    height: 700px;
+   
     display: flex;
     background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Unrec/TallHero_3000X1200_Unrec._CB593464763_.jpg);
     background-size: cover;
@@ -358,6 +355,8 @@
     display: flex;
     flex-direction: column;
     padding-left: 1%;
+    justify-content: center;
+    align-items: center;
 }
 .box3{
     height: 430px;
@@ -421,11 +420,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-left: 1%;
 }
-.explores{
-    padding-top: 6%;
-    color: #067979;
+.exploress{
+    color: rgb(6, 121, 121);
+    padding-left: 0.8rem;
+    padding-top: 4%;
+    padding-right: 70%;
 }
 .gx2{
     height: 430px;
@@ -459,4 +461,82 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 1%;
+}
+/* media queries */
+@media screen and (max-width:600px) 
+{
+    .navbar{
+        width: 100%;
+    }
+    .logo_navbar{
+        width: 4%;
+        height: 20px;
+    }
+    .border{
+        height: 10px;
+        width: 200%;
+        background-size: contain;
+    }
+    .loacationimg{
+        height: 20px;
+    }
+    .herosection{
+        background-size: contain;
+    }
+    .row1{
+        margin-top: -100%;
+    }
+    h2{
+        font-size: 8px;
+    }
+    .row1{
+        font-size: small;
+    }
+    .box1{
+        height: 200px;
+    }
+    .lap{
+        height: 100px;
+    }
+    .box2{
+        height: 200px;
+    }
+    .pehli{
+        height: 30px;
+    }
+    .box3{
+        height: 200px;
+    }
+    .box4{
+        height: 200px;
+    }
+    row2{
+        font-size: 8px;
+        
+    }
+    .gx1{
+        height: 200px;
+    }
+    .gx2{
+        height: 200px;
+    }
+    .gx3{
+        height: 200px;
+    }
+    .gx4{
+        height: 200px;
+    }
+    .seemore{
+        font-size: 6px;
+    }
+    .explores{
+        font-size: 6px;
+    }
+    .exploress{
+        color: #067979;
+        font-size: 6px;
+        padding-right: 60%;
+        padding-top: 12%;
+
+    }
 }
