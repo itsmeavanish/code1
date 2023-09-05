@@ -296,11 +296,11 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: -25%; 
-    background-image: linear-gradient(rgba(11, 11, 83, 0.4), );
+    background-image: linear-gradient(rgba(17, 17, 82, 0.408),#f3f3f3 );
 }
 .box1{
     height: 26rem;
-    width: 23%;
+    width: 21%;
     font-size: 0.95rem;
     background-color: white;
     border: 2px solid white; 
@@ -312,7 +312,7 @@
 }
 .box2{
     height: 26rem;
-    width: 23%;
+    width: 21%;
     font-size: 0.95rem;
     background-color: white;
     border: 2px solid white;
@@ -324,7 +324,7 @@
 }
 .box3{
     height: 26rem;
-    width: 23%;
+    width: 21%;
     background-color: white;
     border: 2px solid white;
     display: flex;
@@ -334,7 +334,7 @@
 }   
 .box4{
     height: 26rem;
-    width: 23%;
+    width: 21%;
     background-color: white;
     border: 2px solid white;
     display: flex;
@@ -402,7 +402,7 @@
 }
 .gx1{
     height: 26rem;
-    width: 23%;
+    width: 22%;
     font-size: 0.95rem;
     background-color: white;
     border: 2px solid white; 
@@ -419,7 +419,7 @@
 }
 .gx2{
     height: 26rem;
-    width: 23%;
+    width: 22%;
     font-size: 0.95rem;
     background-color: white;
     border: 2px solid white;
@@ -431,7 +431,7 @@
 }
 .gx3{
     height: 26rem;
-    width: 23%;
+    width: 22%;
     font-size: 0.95rem;
     background-color: white;
     border: 2px solid white;
@@ -442,7 +442,7 @@
 }   
 .gx4{
     height: 26rem;
-    width: 23%;
+    width: 22%;
     background-color: white;
     border: 2px solid white;
     display: flex;
@@ -467,6 +467,7 @@ h2{
     position: absolute;
     left: 1%;
     justify-content: space-evenly;
+    border: 2px solid #cecbcb;
 }
 .deals{
     padding-left: 1.5%;
@@ -655,6 +656,7 @@ h2{
     position: absolute;
     left: 1%;
     justify-content: space-evenly;
+    border: 2px solid #cecbcb;
 }
 .deax{
     padding-left: 1.5%;
@@ -739,6 +741,7 @@ h2{
     justify-content: space-evenly;
     background-color: rgb(207 213 213 / 50%);
     display: flex;
+    
 }
 .contex{
     width: 98%;
@@ -747,6 +750,7 @@ h2{
     position: absolute;
     left: 1%;
     justify-content: space-evenly;
+    border: 2px solid #cecbcb;
 }
 .deax{
     padding-left: 1.5%;
@@ -772,6 +776,7 @@ h2{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 .podl{
     width: 20%;
@@ -831,10 +836,11 @@ h2{
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(207 213 213 / 50%);
+    
 }
 .box1{
     height: 26rem;
-    width: 23%;
+    width: 22%;
     font-size: 0.95rem;
     background-color: white;
     border: 2px solid white; 
@@ -846,7 +852,7 @@ h2{
 }
 .box2{
     height: 26rem;
-    width: 23%;
+    width: 22%;
     font-size: 0.95rem;
     background-color: white;
     border: 2px solid white;
@@ -858,7 +864,7 @@ h2{
 }
 .box3{
     height: 26rem;
-    width: 23%;
+    width: 22%;
     background-color: white;
     border: 2px solid white;
     display: flex;
@@ -868,7 +874,7 @@ h2{
 }   
 .box4{
     height: 26rem;
-    width: 23%;
+    width: 22%;
     background-color: white;
     border: 2px solid white;
     display: flex;
@@ -988,6 +994,25 @@ h2{
     text-decoration: none;
     color: #067979;
 }
+/* workformiddle */
+.middlework{
+    height: 20rem;
+    background-color: rgb(207 213 213 / 50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.midcontent{
+    background-color: white;
+    width: 70%;
+    height: 17rem;
+    background-image: url(images/Screenshot\ \(3\).png);
+    background-size: 66rem;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 2px solid #cecbcb;
+
+}
 /*work for footers*/
 .backtotop{
     height: 2.4rem;
@@ -1094,6 +1119,7 @@ h2{
 }
 .world{
     filter: invert(100%);
+    cursor: pointer;
 }
 .enx{
     margin-left: 0.8rem;
@@ -1106,6 +1132,10 @@ h2{
 .langlast{
     display: flex;
     justify-content: center;
+}
+.inforx{
+    height: 20rem;
+    background-color: #131a22;
 }
 
 /* media queries */
