@@ -2,18 +2,17 @@
     margin: 0;
     padding: 0;
     border: border-box;
-    
+   
 }
 .navbar
 {
-    height: 60px;
+    height: 4rem;
     background-color: #0f1111;
     border: 2px solid transparent;
     color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-   
 }
 .logo_navbar{
     height: 3rem;
@@ -73,7 +72,6 @@
     border-bottom-left-radius: 4px;
     border: none;
 }
-
 .search{
     height: 2.67rem;
     width: 100%;
@@ -88,14 +86,12 @@
     align-items: center;
     font-size: 1.2rem;
     background-color: rgba(255, 166, 0, 0.664);
-
 }
 .language{
     margin-left: 10px;
     display: flex;
     height: 50px;
     align-items: center;
-
 }
 .en{
     display: flex;
@@ -165,26 +161,18 @@
     align-items: center;
     color: white;
     font-size: 14px;
-    align-items: center;
-    justify-content: space-between;
+    
+   
 }
-.main2{
+.mai2{
     display: flex;
-    width: 90%;
+    font-size: 0.8rem;
+    width: 70%;
+    justify-content: space-evenly;
 }
 .info{
     display: flex;
-    height: 40px;
     align-items: center;
-    margin-left: 10px;
-}
-.m{
-    padding: 0px 0px 0px 5px;
-    align-items: center;
-    margin-bottom: 2px;
-    text-transform: capitalize;
-    font-size: 0.9rem;
-
 }
 .info:hover{
     border: 2px solid white;
@@ -194,10 +182,10 @@
     align-items: center;
 }
 .amaz-mini-tv{
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
-    font-size: 0.9rem;
-    white-space: nowrap
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
 }
 .amaz-mini-tv:hover{
     border: 2px solid white;
@@ -206,24 +194,17 @@
     text-decoration: none;
     color: white;
 }
-.sell{
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
-}
-.sell:hover{
-    border: 2px solid white;
-}
 .mob{
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
+    display: flex;
+    align-items: center;
 }
 .mob:hover{
     border: 2px solid white;
 }
 .releases{
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
-    white-space: nowrap
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
 }
 .releases:hover{
     border: 2px solid white;
@@ -234,8 +215,6 @@
     display: flex;
     text-transform: capitalize;
     align-items: center;
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
     white-space: nowrap
     
 }
@@ -246,29 +225,28 @@
     display: flex;
     border: 2px solid transparent;
     align-items: center;
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
 }
 .registry:hover{
     border: 2px solid white;
 }
 .m{
+    display: flex;
+    align-items: center;
     white-space: nowrap
 }
 
 .gift{
     display: flex;
     align-items: center;
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
+
 }
 .gift:hover{
     border: 2px solid white;
 
 }
 .electronics{
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
+    display: flex;
+    align-items: center;
 }
 .electronics:hover{
     border: 2px solid white;
@@ -278,8 +256,7 @@
     display: flex;
     text-transform: capitalize;
     align-items: center;
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
+    
 }
 .sell:hover{
     border: 2px solid white;
@@ -289,8 +266,7 @@
     align-items: center;
     background-color: rgba(1, 19, 35, 0.922);
     color: white;
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
+   
     border: none;
 }
 .prime:hover{
@@ -298,8 +274,8 @@
 }
 
 .kitchens{
-    margin: 5px 0px 6px;
-    padding: 8px 9px;
+    display: flex;
+    align-items: center;
     white-space: nowrap
     
 }
@@ -307,10 +283,11 @@
     border: 2px solid white;
 }
 
+
 .herosection{
     height: 40rem;
     display: flex;
-    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Unrec/TallHero_3000X1200_Unrec._CB593464763_.jpg);
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/wearables/BAU_GW/Tall_Hero_3000X1200_BAU._CB596910925_.jpg);
     background-size: cover;
 }
 /* row 1 */
@@ -319,6 +296,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: -25%; 
+    background-image: linear-gradient(rgba(11, 11, 83, 0.4), );
 }
 .box1{
     height: 26rem;
@@ -363,9 +341,7 @@
     flex-direction: column;
     padding-left: 1%;
 }
-.mox{
-    padding-top: 0.3rem;
-}
+
 .menu{
     padding-top: 0.3rem;
 }
@@ -381,7 +357,7 @@
 }
 .space{
     height: 20px;
-    background-color: rgb(7, 169, 169);
+    background-color:  rgb(207 213 213 / 50%);
 }
 .essentials{
     height: 14rem;
@@ -422,7 +398,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(7, 169, 169);
+    background-color: rgb(207 213 213 / 50%);
 }
 .gx1{
     height: 26rem;
@@ -477,9 +453,665 @@
 h2{
     font-size: 1.3rem;
 }
+/* row3 */
+.ROW3{
+    height: 29rem;
+    justify-content: space-evenly;
+    background-color: rgb(207 213 213 / 50%);
+    display: flex;
+}
+.content{
+    width: 98%;
+    height: 27rem;
+    background-color: white;
+    position: absolute;
+    left: 1%;
+    justify-content: space-evenly;
+}
+.deals{
+    padding-left: 1.5%;
+}
+.head{
+    display: flex;
+    height: 3.5rem;
+    width: 18%;
+    align-items: center;
+    justify-content: center;
+
+}
+.dealtext{
+    text-decoration: none;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: #067979;
+}
+.row3img{
+    height: 21rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pods{
+    height: 18rem;
+    width: 18%;
+    background-color: rgb(207 213 213 / 50%);
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.podimg{
+    height: 11rem;
+    filter: invert(10%);
+}
+.text{
+    width: 100%;
+    height: 2rem;
+    color: rgb(160, 8, 8);
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    margin-top: 3rem;
+    padding-top: 0.8rem;
+    background-color: white;
+    
+}
+.upoff{
+    width: 41%;
+    height: 2rem;
+    color: white;
+    background-color: rgb(165, 5, 5);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upoffs{
+    display: flex;
+    width: 50%;
+    margin-left: -1rem;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.steal{
+    background-color: white;
+    width: 100%;
+}
+.stealtext{
+    width: 100%;
+    margin-top: 0.5rem;
+    
+}
+  /*work for row4  */
+.row5{
+    height: 20rem;
+    justify-content: space-evenly;
+    background-color: rgb(207 213 213 / 50%);
+    display: flex;
+}
+
+.contex{
+    width: 98%;
+    height: 19rem;
+    background-color: white;
+    position: absolute;
+    left: 1%;
+    justify-content: space-evenly;
+}
+.deax{
+    padding-left: 1.5%;
+    margin-top: 1.5rem;
+}
+.heal{
+    display: flex;
+    height: 3.5rem;
+    width: 40%;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+.dealtexx{
+    text-decoration: none;
+    margin-top: 1.9rem;
+    font-size: 0.9rem;
+    color: #067979;
+}
+.row5img{
+    height: 13rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.podl{
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.podimgl{
+    height: 10rem;
+}
+.text{
+    width: 100%;
+    height: 2rem;
+    color: rgb(160, 8, 8);
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    margin-top: 3rem;
+    padding-top: 0.8rem;
+    background-color: white;
+    
+}
+.upoff{
+    width: 41%;
+    height: 2rem;
+    color: white;
+    background-color: rgb(165, 5, 5);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upoffs{
+    display: flex;
+    width: 50%;
+    margin-left: -1rem;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.steal{
+    background-color: white;
+    width: 100%;
+}
+.stealtext{
+    width: 100%;
+    margin-top: 0.5rem;
+    
+}
+/* work for row5 */
+.row4{
+    height: 20rem;
+    justify-content: space-evenly;
+    background-color: rgb(207 213 213 / 50%);
+    display: flex;
+}
+.contex{
+    width: 98%;
+    height: 19rem;
+    background-color: white;
+    position: absolute;
+    left: 1%;
+    justify-content: space-evenly;
+}
+.deax{
+    padding-left: 1.5%;
+    margin-top: 1.5rem;
+}
+.heax{
+    display: flex;
+    height: 3.5rem;
+    width: 51%;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+.dealtexx{
+    text-decoration: none;
+    margin-top: 1.9rem;
+    font-size: 0.9rem;
+    color: #067979;
+}
+.row4img{
+    height: 17rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.podx{
+    width: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.podimgx{
+    height: 12rem;
+}
+.text{
+    width: 100%;
+    height: 2rem;
+    color: rgb(160, 8, 8);
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    margin-top: 3rem;
+    padding-top: 0.8rem;
+    background-color: white;
+    
+}
+.upoff{
+    width: 41%;
+    height: 2rem;
+    color: white;
+    background-color: rgb(165, 5, 5);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upoffs{
+    display: flex;
+    width: 50%;
+    margin-left: -1rem;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.steal{
+    background-color: white;
+    width: 100%;
+}
+.stealtext{
+    width: 100%;
+    margin-top: 0.5rem;
+    
+}
+/* work for row6 */
+.row6{
+    height: 20rem;
+    justify-content: space-evenly;
+    background-color: rgb(207 213 213 / 50%);
+    display: flex;
+}
+.contex{
+    width: 98%;
+    height: 19rem;
+    background-color: white;
+    position: absolute;
+    left: 1%;
+    justify-content: space-evenly;
+}
+.deax{
+    padding-left: 1.5%;
+    margin-top: 1.5rem;
+}
+.heap{
+    display: flex;
+    height: 3.5rem;
+    width: 50%;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+.dealtexp{
+    text-decoration: none;
+    margin-top: 1.9rem;
+    font-size: 0.9rem;
+    color: #067979;
+}
+.row6img{
+    height: 13rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.podl{
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.podimgl{
+    height: 10rem;
+}
+.text{
+    width: 100%;
+    height: 2rem;
+    color: rgb(160, 8, 8);
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    margin-top: 3rem;
+    padding-top: 0.8rem;
+    background-color: white;
+    
+}
+.upoff{
+    width: 41%;
+    height: 2rem;
+    color: white;
+    background-color: rgb(165, 5, 5);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upoffs{
+    display: flex;
+    width: 50%;
+    margin-left: -1rem;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.steal{
+    background-color: white;
+    width: 100%;
+}
+.stealtext{
+    width: 100%;
+    margin-top: 0.5rem;
+    
+}
+/* work for row7 */
+.row7{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(207 213 213 / 50%);
+}
+.box1{
+    height: 26rem;
+    width: 23%;
+    font-size: 0.95rem;
+    background-color: white;
+    border: 2px solid white; 
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    
+    
+}
+.box2{
+    height: 26rem;
+    width: 23%;
+    font-size: 0.95rem;
+    background-color: white;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+   
+    
+}
+.box3{
+    height: 26rem;
+    width: 23%;
+    background-color: white;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    
+}   
+.box4{
+    height: 26rem;
+    width: 23%;
+    background-color: white;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+}
+
+.menu{
+    padding-top: 0.3rem;
+}
+.automobile-{
+    padding-left: 2%;
+    padding-top :0.6rem;
+    
+}
+.automobiles{
+    padding-left: 2%;
+    padding-top :0.6rem;
+    
+}
+.space{
+    height: 20px;
+    background-color:  rgb(207 213 213 / 50%);
+}
+.essentials-{
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.seemore{
+    padding-top: 1.4rem;
+    
+    color: rgb(6, 121, 121);
+}
+.explore{
+    color: rgb(6, 121, 121);
+    padding-left: 0.8rem;
+    
+
+    
+}
+.exploresk{
+    color: rgb(6, 121, 121);
+    padding-left: 0.8rem;
+    padding-top: 4.5rem;
+}
+.essentext{
+    font-size: 0.9rem;
+}
+.fashion1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.3rem;
+
+}
+.fashion2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.kurti{
+    margin-right: 2rem;
+}
+.fashionword{
+    margin-top: 0.5rem;
+}
+/* workforlast */
+.last{
+    height: 15rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.lasx{
+    height: 10rem;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contel{
+    height: 9.8rem;
+    width: 99.8%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(207 213 213 / 50%);
+    border-radius: 5px;
+}
+.buttox{
+    width: 17%;
+    height: 18.5%;
+    background-color: #e8831e;
+    color: #000000;
+    font-weight: 700;
+    border: 2px solid #e47911;
+    border-radius: 4px;
+    margin-top: 0.3rem;
+    text-shadow: 0 1px 0 #e47911;
+    cursor: pointer;
+}
+.comm{
+    font-weight: 100;
+}
+.new{
+    display: flex;
+    padding-top: 0.3rem;
+    font-size: 0.9rem;
+}
+.start{
+    text-decoration: none;
+    color: #067979;
+}
+/*work for footers*/
+.backtotop{
+    height: 2.4rem;
+    background-color: #232f3ed1;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.none{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+.mainfooter{
+    height: 20rem;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+.knowus{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    white-space: nowrap;
+}
+.connectwithus{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    white-space: nowrap;
+}
+.makemoney{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    white-space: nowrap;
+}
+.short{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.67rem;
+}
+.footex{
+    color: rgba(255, 255, 255, 0.756);
+    text-decoration: none;
+    margin-top: 0.6rem;
+}
+.footex:hover{
+    text-decoration:underline;
+}
+.helpu{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    white-space: nowrap;
+}
+.footertext{
+    font-size: 1rem;
+          
+}.spax{
+    width: 100%;
+    height: 1px;
+    background-color: azure;
+}
+.countries{
+    height: 10rem;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.buttom{
+    background-color: #232f3e;
+    color: white;
+   
+}
+.selecx{
+    background-color: #232f3e;
+    border: transparent;
+    width: 8rem;
+    color: #f3f3f3;
+    font-size: 0.89rem;
+    
+}
+.langchoose{
+    width: 10rem;
+    height: 2.78rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #f3f3f38a;
+    margin-top: -0.8rem;
+    margin-left: 4rem;
+}
+.langandlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.world{
+    filter: invert(100%);
+}
+.enx{
+    margin-left: 0.8rem;
+}
+.countryname{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.langlast{
+    display: flex;
+    justify-content: center;
+}
+
 /* media queries */
-@media (min-width:750px) and (max-width:1050px){
+@media (min-width:700px) and (max-width:1050px){
     .navbar{
+        height: 2.7rem;
         display: flex;
         justify-content: space-between;
     }
@@ -514,23 +1146,26 @@ h2{
         font-size: 0.54rem;
     }
     .nav-search{
-       
-        width: 38%;
-        
+        width: 37%;
+        height: 2.34rem;
         
     }
     .select{
         width: 30%;
+        height: 2.34rem;
     }
     .all{
         font-size: 0.1rem;
+        height: 2.34rem;
     }
     .search{
         font-size: 0.7rem;
+        height: 2.34rem;
 
     }
     .search-icon{
         width: 25%;
+        height: 2.34rem;
     }
     .ind-{
         height: 1rem;
@@ -554,37 +1189,45 @@ h2{
     font-size: 0.7rem;
     padding-top: 0.9rem;
    }
-   .m{
-    font-size: 0.7rem;
-   }
-   .img{
-    width: 10%;
-   }
+
    h2{
     font-size: 0.78rem;
    }
+   .img{
+    width: 20%;
+    
+   }
+   .main{
+    width: 100%;
+    height: 2rem;
+   }
+   .mai2{
+    width: 80%;
+   }
+   .m{
+    font-size: 0.52rem;
+   }
    .herosection{
-    width: 50rem;
-    height: 40rem;
+    height: 30rem;
     background-size: contain;
    }
    /* workforboxes */
     
    .box1{
     height: 17rem;
-    margin-top: -20rem;
+    margin-top: -8rem;
    }
    .box2{
     height: 17rem;
-    margin-top: -20rem;
+    margin-top: -8rem;
    }
    .box3{
     height: 17rem;
-    margin-top: -20rem;
+    margin-top: -8rem;
    }
    .box4{
     height: 17rem;
-    margin-top: -20rem;
+    margin-top: -8rem;
    }
    .lap{
     height: 11rem;
@@ -604,18 +1247,257 @@ h2{
    }
    .gx1{
     height: 19rem;
-    margin-top: -1.5rem;
+  
    }
    .gx2{
     height: 19rem;
-    margin-top: -1.5rem;
    }
    .gx3{
     height: 19rem;
-    margin-top: -1.5rem;
    }
    .gx4{
     height: 19rem;
-    margin-top: -1.5rem;
+   }
+   /* row3 */
+   .ROW3{
+    height: 20rem;
+   }
+   .head{
+    padding-left: 1rem;
+   }
+   .row3img{
+    margin-top: -3rem;
+   }
+   .deals{
+    white-space: nowrap;
+   }
+   .dealtext{
+    white-space: nowrap;
+    font-size: 0.78rem;
+    margin-top: -0rem;
+   }
+   .text{
+    width: 130%;
+    display: flex;
+    margin-left: 2.8rem;
+    
+   }
+   .stealtext{
+    white-space: nowrap;
+    font-size: 0.63rem;
+    margin-top: 0.5rem;
+   }
+   .upoff{
+    font-size: 0.5rem;
+    width: 44%;
+    
+   }
+   .upoffs{
+    font-size: 0.5rem;
+    width: 55%;
+   }
+   .pods{
+    height: 13rem;
+    
+   }
+   .podimg{
+    height: 7rem;
+    padding-top: 2.8rem;
+   }
+   .shoepair{
+    height: 13rem;
+    
+   }
+   .imgs{
+    height: 7rem;
+    padding-top: 2.8rem;
+   }
+   .bathfaucets{
+    height: 13rem;
+   }
+   .vguard{
+    height: 13rem;
+   }
+}
+/* for mobile */
+@media (min-width:350px) and (max-width:699px){
+    .navbar{
+        height: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo_navbar{
+        height: 1rem;
+        width: 5%;
+    }
+    .logoimg{
+        height: 1rem;
+        width: 2rem;
+    }
+    .in{
+        font-size: 28%;
+    }
+    .address{
+        width: 12.5%;
+        padding-left: -1rem;
+    }
+    .locationimg{
+        height: 0.4rem;
+        padding-top: 0.56rem;
+       
+    }
+    .addresstext{
+        font-size: 26%;
+       margin-left: -0.rem;
+       
+    }
+    .seladd{
+        font-size: 0.3rem;
+    }
+    .nav-search{
+        width: 28%;
+        height: 1rem;
+    }
+    .select{
+        width: 20%;
+        height: 1rem;
+        font-size: smaller;
+    }
+    .all{
+        font-size: 0.005rem;
+    }
+    .search{
+        font-size: 0.3rem;
+        height: 1rem;
+
+    }
+    .search-icon{
+        width: 12%;
+        height: 0.7rem;
+    }
+    .ind-{
+        height: 0.4rem;
+        margin-bottom: 0.1rem;
+    }
+   .en{
+    font-size: 0.5rem;
+   }
+   .hello{
+    font-size: 0.3rem;
+    padding-top: 0.9rem;
+   }
+   .sign{
+    display: flex;
+    flex-direction: column;
+   }
+   .acc{
+    font-size: 0.3rem;
+    
+   }
+   .return{
+    font-size: 0.3rem;
+    padding-top: 2.5rem;
+   }
+
+   h2{
+    font-size: 0.5rem;
+   }
+   .img{
+    width: 20%;
+    
+   }
+   .main{
+    width: 100%;
+    height: 2rem;
+   }
+   .mai2{
+    width: 80%;
+   }
+   .m{
+    font-size: 0.27rem;
+   }
+   .herosection{
+    height: 21rem;
+    background-size: contain;
+   }
+   /* workforboxes */
+    
+   .box1{
+    height: 10rem;
+    margin-top: -9rem;
+   }
+   .box2{
+    height: 10rem;
+    margin-top: -9rem;
+   }
+   .box3{
+    height: 10rem;
+    margin-top: -9rem;
+   }
+   .box4{
+    height: 10rem;
+    margin-top: -9rem;
+   }
+   .lap{
+    height: 6rem;
+   }
+   .pehli{
+    width: 3rem;
+    height: 2rem;
+   }
+   .seemore{
+    font-size: 0.4rem;
+   }
+   .bx3text{
+    font-size: 0.3rem;
+   }
+   .exploresk{
+    margin-top: -6.5rem;
+   }
+   .essentext{
+    font-size: 0.6rem;
+   }
+   .gx1{
+    height: 19rem;
+  
+   }
+   .gx2{
+    height: 19rem;
+   }
+   .gx3{
+    height: 19rem;
+   }
+   .gx4{
+    height: 19rem;
+   }
+   /* row3 */
+   .head{
+    padding-left: 1rem;
+   }
+   .deals{
+    white-space: nowrap;
+   }
+   .dealtext{
+    white-space: nowrap;
+    font-size: 0.78rem;
+    margin-top: -0rem;
+   }
+   .text{
+    width: 130%;
+    display: flex;
+    margin-left: 1.2rem;
+    
+   }
+   .stealtext{
+    white-space: nowrap;
+   }
+   .upoff{
+    font-size: 0.5rem;
+    width: 44%;
+    
+   }
+   .upoffs{
+    font-size: 0.5rem;
+    width: 55%;
    }
 }
