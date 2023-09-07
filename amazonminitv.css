@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+header{
+    height: 4.4rem;
+    background-color: #1a2224;
+    display: flex;
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+}
+.amazonminitv{
+    height: 4.3rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    width: 25%;
+    column-rule-color: rgb(12, 100, 100);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.02rem;
+    font-weight: 700;
+}
+.home{
+    color: #de146d;
+}
+.settings{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 1.2rem;
+    top: 1.2rem;
+}
+.herosection{
+    height: 19.99vw;
+    width: 100vw;
+    background-image: url(https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_HalfCA_vf/2b01516a-fe7c-427d-86f1-e4834e072bee.__SX2375__SY475__QL60__._TTH_.jpeg);
+    background-size: contain;
+    position: absolute;
+    top: 4.4rem;
+}
+.body{
+    height: 200rem;
+    background-color: #070d0e;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 23.52rem;
+    
+    
+    
+    
+}
+.box1{
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box2{
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -9rem;
+}
+.box3{
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -9rem;
+}
+.box4{
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -9rem;
+}
+
+.box5{
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -9rem;
+}
+.box6
+{
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -9rem;
+}
+.box7{
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -9rem;
+}
+.text{
+    margin-left: 4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 0.7rem;
+}
+.images{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.imgsec{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.imagex{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
